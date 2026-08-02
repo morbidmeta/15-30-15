@@ -112,10 +112,10 @@ function timer(count) {
         }
         }, 1000);
         switch (count) {
-            case 15:
+            case 20:
                 batman()
                 break;
-            case 30:
+            case 40:
                 starbucks()
             default:
                 break;
@@ -124,8 +124,8 @@ function timer(count) {
 }
 
 async function main() {
-    await timer(15);
-    await timer(30);
+    await timer(20);
+    await timer(40);
     main()
 }
 
